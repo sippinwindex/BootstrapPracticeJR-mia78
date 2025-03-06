@@ -1,0 +1,13 @@
+/* styles.css */
+[class*="col-"] {
+    border: none; /* Ensures no borders on columns */
+}
+
+.card {
+    border: 1px solid #dee2e6; /* Keeps default card border; remove if unwanted */
+}
+
+/* Optional: Add padding or styling for better spacing */
+.tab-content, .card-body {
+    padding: 1rem;
+}
